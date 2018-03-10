@@ -38,4 +38,12 @@ public class Cell {
     public Figure getFigure() {
         return figure;
     }
+
+    public String getColor() {
+        return figure.getColor();
+    }
+
+    public String getFigureName() {
+        return figure != null ? figure.getName() : " ";
+    }
 }
